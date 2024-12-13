@@ -1,0 +1,115 @@
+/* Resetando as margens e paddings */
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	line-height: 1.6;
+	background-color: #f4f4f4;
+	color: #333;
+}
+
+/* Cabeçalho */
+
+header {
+	background-color: #333;
+	color: white;
+	padding: 10px;
+}
+
+header .logo img {
+	width: 100px;
+	height: auto;
+
+}
+
+header nav ul {
+	list-style: none;
+	display: flex;
+	justify-content: flex-end;
+	padding: 0;
+}
+
+header nav ul li {
+	margin-left: 20px;
+}
+
+header nav ul li a {
+	color: white;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+/* Banner */
+
+.banner {
+	background: url(https://aempreendedora.com.br/wp-content/uploads/2023/05/Inclusao-Social-A-Importancia-da-Conscientizacao-e-do-Apoio.jpg) no-repeat center center/cover;
+	color: black;
+	padding: 60px 20px;
+	text-align: center;
+}
+
+.banner h1 {
+	font-size: 2.5rem;
+}
+
+.banner p {
+	font-size: 1.2rem;
+	text-align: center;
+}
+
+/* Seção Geral */
+
+section {
+	padding: 40px 20px;
+	text-align: center;
+}
+
+section h2 {
+	font-size: 2rem;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+section p {
+	font-size: 1.1rem;
+	margin-bottom: 20px;
+	text-align: left;
+}
+
+.btn:hover {
+	background-color: #218838;
+}
+
+/* Nosso Trabalho */
+
+.destaques img{
+	width: 100%; /* largura */
+	max-width: 400px; /* largura máxima de um elemento */
+	height: 300px; /* altura */
+	margin: 20px auto; /* margem */
+	border-radius: 8px; /* os cantos dos elementos ficam arredondados */
+}
+
+/* Sobre Nós */
+
+.sobre img{
+	width: 100%; /* largura */
+	max-width: 400px; /* largura máxima de um elemento */
+	height: 300px; /* altura */
+	margin: 20px auto; /* margem */
+	border-radius: 8px; /* os cantos dos elementos ficam arredondados */
+}
+
+/*Rodapé */
+
+footer {
+	background-color: #333;
+	color: white;
+	text-align: center;
+	padding: 20px;
+}
