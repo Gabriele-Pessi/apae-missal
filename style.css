@@ -55,6 +55,7 @@ header nav ul li a {
 
 .banner h1 {
 	font-size: 2.5rem;
+	color: black;
 }
 
 .banner p {
@@ -64,6 +65,9 @@ header nav ul li a {
 
 /* Seção Geral */
 
+h1, h2, h3, h4, h5, h6 {
+    color: #008000; /* Amarelo Ouro */
+}
 section {
 	padding: 40px 20px;
 	text-align: center;
